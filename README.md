@@ -169,10 +169,6 @@ The trained models were deployed using Streamlit, enabling rapid development of 
 
 I was responsible for training and evaluating all machine learning models, running comparative analysis, tuning selected models, and preparing the final trained models integrated into the GUI.
 
-![Diagram](test1.png)
-![Diagram](test2.png)
-![Diagram](test3.png)
-
 
 
 
