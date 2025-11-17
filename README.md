@@ -6,9 +6,6 @@ The initial phase consists of careful data preprocessing to ensure data quality 
 Subsequently, exploratory data analysis reveals meaningful insights into the relationships among the variables. Comparative analysis is performed on at least 4-5 AI/ML algorithms in the core predictive modeling phase. Successful data validation procedures are used to build predictions and emphasize the strength of the models . 
 The final step is to develop a graphical user interface (GUI) that facilitates testing new data. Users can enter the context, select the desired prediction model, and see the predicted results, specifically focusing on SGPA and CGPA for the 5th grade.
 
-Read the full Report Here : https://drive.google.com/file/d/1xOrrw3cMXNC4t39R39Mu3C1_vQ0I3PNF/view?usp=sharing 
-
-
 
 
 ## Critical Path and Activity Diagram:
@@ -141,7 +138,7 @@ RMSE: SGPA = 0.20, CGPA = 0.11
 
 10. Hybrid Model
 
-### Stacked Model
+a. Stacked Model
 
 Combines predictions from multiple base models and trains a meta-model to produce final predictions. Captures strengths of different learners and improves accuracy.
 RMSE: SGPA = 0.15, CGPA = 0.07
@@ -149,7 +146,7 @@ RMSE: SGPA = 0.15, CGPA = 0.07
 ![Diagram](model9.png)
 
 
-### Parallel Ensemble Model
+b. Parallel Ensemble Model
 
 Runs multiple models simultaneously and aggregates their outputs. Offers speed, robustness, and improved performance in batch prediction scenarios.
 RMSE: SGPA = 0.15, CGPA = 0.11
